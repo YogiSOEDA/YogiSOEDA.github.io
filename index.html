@@ -3,100 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Happy Birthday Valita</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <script src="./assets/js/main.js" defer></script>
     <script src="https://kit.fontawesome.com/fd3dfecc83.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="container">
-        <div class="balloon-group">
-            <div class="balloon" style="margin-top: 2%">
-                <div><span class="hbdspan">☺</span></div>
-                <div><span class="hbdspan">B</span></div>
-                <div><span class="hbdspan">D</span></div>
-                <div><span class="hbdspan">A</span></div>
-                <div><span class="hbdspan">Y</span></div>
-                <div><span class="hbdspan">!</span></div>
+    <!-- <div class="flex-container"> -->
+        <div style="flex-grow: 1;"></div>
+        <div style="flex-grow: 8;" class="container">
+            <div class="balloon-group">
+                <div class="balloon" style="margin-top: 2%">
+                    <div><span class="hbdspan">☺</span></div>
+                    <div><span class="hbdspan">B</span></div>
+                    <div><span class="hbdspan">D</span></div>
+                    <div><span class="hbdspan">A</span></div>
+                    <div><span class="hbdspan">Y</span></div>
+                    <div><span class="hbdspan">!</span></div>
+                </div>
+    
             </div>
-
-        </div>
-        <div class="card-container">
-        
-            <!-- Previous Button -->
-            <button id="prev-btn">
-                <i class="fas fa-arrow-circle-left"></i>
-            </button>
+            <div class="card-container">
             
-            <!-- The Book -->
-            <div id="book" class="book">
-                <!-- Paper 1 -->
-                <div id="p1" class="paper">
-                    <div class="front">
-                        <div id="f1" class="front-content">
-                            <h1 class="book-title">Palit Sayang</h1>
-                            <img class="cover-img" src="./assets/images/palit.jpeg" alt="palit">
+                <!-- Previous Button -->
+                <button id="prev-btn">
+                    <i class="fas fa-arrow-circle-left"></i>
+                </button>
+                
+                <!-- The Book -->
+                <div id="book" class="book">
+                    <!-- Paper 1 -->
+                    <div id="p1" class="paper">
+                        <div class="front">
+                            <div id="f1" class="front-content">
+                                <h1 class="book-title">Palit Sayang</h1>
+                                <img class="cover-img" src="./assets/images/palit.jpeg" alt="palit">
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div id="b1" class="back-content">
+                                <h2>Some Intro</h2>
+                                <div class="content">
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="back">
-                        <div id="b1" class="back-content">
-                            <h2>Some Intro</h2>
-                            <div class="content">
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    <!-- Paper 2 -->
+                    <div id="p2" class="paper">
+                        <div class="front">
+                            <div id="f2" class="front-content">
+                                <h1>Some Cool Page</h1>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div id="b2" class="back-content">
+                                <h3>
+                                    <br>"Happy Birthday Palit
+                                    <br>Wish you the best
+                                    <br>Semoga semua keinginan
+                                    <br>dan cita-cita tercapai
+                                    <br>Makin sukses, Makin Gacor
+                                    <br>Amiiin"
+                                    <br>
+                                    <br>(Kaoru)
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Paper 3 -->
+                    <div id="p3" class="paper">
+                        <div class="page-image">
+                            <div id="f3" class="front-content">
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div id="b3" class="back-content">
+                                <h1>The Good Bye</h1>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Paper 2 -->
-                <div id="p2" class="paper">
-                    <div class="front">
-                        <div id="f2" class="front-content">
-                            <h1>Some Cool Page</h1>
-                        </div>
-                    </div>
-                    <div class="back">
-                        <div id="b2" class="back-content">
-                            <h3>
-                                <br>"Happy Birthday Palit
-                                <br>Wish you the best
-                                <br>Semoga semua keinginan
-                                <br>dan cita-cita tercapai
-                                <br>Makin sukses, Makin Gacor
-                                <br>Amiiin"
-                                <br>
-                                <br>(Kaoru)
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-                <!-- Paper 3 -->
-                <div id="p3" class="paper">
-                    <div class="page-image">
-                        <div id="f3" class="front-content">
-                            <!-- <div class="gambar-babeh"></div> -->
-                            <!-- <img class="isi-img" src="./palit2.png" alt="palit"> -->
-                        </div>
-                    </div>
-                    <div class="back">
-                        <div id="b3" class="back-content">
-                            <h1>The Good Bye</h1>
-                        </div>
-                    </div>
+                
+                <button id="next-btn">
+                    <i class="fas fa-arrow-circle-right"></i>
+                </button>
+            </div>
+            <div class="btn-audio">
+                <button id="mute-btn" type="button"><i id="icon-music" class="fa-solid fa-volume-low"></i></button>
+            </div>
+            <div class="cake">
+                <div class="container-cake">
+                    <div class="candle"></div>
+                    <div class="layer-1"></div>
+                    <div class="layer-2"></div>
+                    <div class="layer-3"></div>
                 </div>
             </div>
-            
-            <button id="next-btn">
-                <i class="fas fa-arrow-circle-right"></i>
-            </button>
         </div>
-        <div class="btn-audio">
-            <button id="mute-btn" type="button"><i id="icon-music" class="fa-solid fa-volume-low"></i></button>
-        </div>
-    </div>
+        <div style="flex-grow: 1;"></div>
 
     <div>
         <audio id="audio" loop>

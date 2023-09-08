@@ -54,7 +54,7 @@ h3 {
 .card-container {
     display: flex;
     justify-content: center;
-    padding-top: 20%
+    padding-top: 15%
 }
 
 .balloon-group {
@@ -540,10 +540,188 @@ h3 {
     }
 }
 
-
-
-
+/* audio */
 .btn-audio {
     text-align: right;
 }
 
+.cake {
+    display: inline;
+    padding-top: -100%;
+}
+
+/* cake */
+.container-cake {
+    height: 100vh;
+    width: 31.25em;
+}
+
+.center,
+.container-cake * {
+    position: absolute;
+    margin: auto;
+    left: 1000px;
+    right: 0;
+}
+
+.layer-1 {
+    background-color: #367bd0;
+    height: 3.5em;
+    width: 7.87em;
+    top: -7.5em;
+    background-size: 1.56em 9.37em;
+    background-position: 0 -1.25em;
+    background-image: radial-gradient(circle at 0.78em 1em,
+            #f5f5f5 1.25em,
+            transparent 1.3em);
+    animation: fall-1 8s infinite;
+}
+
+@keyframes fall-1 {
+    20% {
+        transform: translateY(55.62em);
+    }
+
+    100% {
+        transform: translateY(55.62em);
+    }
+}
+
+.layer-1:before {
+    content: "";
+    position: absolute;
+    height: 0.75em;
+    width: 100%;
+    background-color: #f54597;
+    bottom: 0;
+}
+
+.layer-1:after {
+    content: "";
+    position: absolute;
+    height: 0.27em;
+    width: 0.27em;
+    background-color: #9a152b;
+    border-radius: 50%;
+    top: 1.81em;
+    left: 0.47em;
+    box-shadow: 1.12em 0.56em #f1663e, 2.01em -0.6em #f5e671, 3.37em 0.5em #9a152b,
+        4.8em -0.56em #f1663e, 5.98em 0 #f5e671, 6.95em 0.36em #9a152b;
+}
+
+.layer-2 {
+    height: 2.5em;
+    width: 6.62em;
+    background-color: #ff99b9;
+    top: -2.56em;
+    background-image: repeating-linear-gradient(90deg,
+            transparent 0,
+            transparent 0.75em,
+            #ff4a83 0.12em,
+            #ff4a83 1.5em);
+    animation: fall-2 8s infinite;
+}
+
+@keyframes fall-2 {
+    20% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(48.12em);
+    }
+
+    100% {
+        transform: translateY(48.12em);
+    }
+}
+
+.layer-3 {
+    background-color: #9a202f;
+    height: 3.5em;
+    width: 4.7em;
+    top: -4.44em;
+    background-size: 1.56em 9.37em;
+    background-position: 0 -1.25em;
+    background-image: radial-gradient(circle at 0.78em 1em,
+            #ffee8d 1.15em,
+            transparent 1.2em);
+    animation: fall-3 8s infinite;
+}
+
+@keyframes fall-3 {
+    40% {
+        transform: translateY(0);
+    }
+
+    60% {
+        transform: translateY(46.5em);
+    }
+
+    100% {
+        transform: translateY(46.5em);
+    }
+}
+
+.layer-3:before {
+    position: absolute;
+    content: "";
+    height: 0.63em;
+    width: 100%;
+    top: 1.8em;
+    background-color: #ffee8d;
+}
+
+.layer-3:after {
+    position: absolute;
+    content: "";
+    background-color: #f54597;
+    height: 0.45em;
+    width: 0.45em;
+    border-radius: 50%;
+    top: -0.55em;
+    left: 0.27em;
+    box-shadow: 1.87em 0 #f54597, 3.75em 0 #f54597;
+}
+
+.candle {
+    height: 2.12em;
+    width: 0.75em;
+    background-color: #3aa2cf;
+    top: -3.12em;
+    border-radius: 0.12em 0.12em 0 0;
+    animation: fall-4 8s infinite;
+}
+
+@keyframes fall-4 {
+    60% {
+        transform: translateY(0);
+    }
+
+    80% {
+        transform: translateY(43.12em);
+    }
+
+    100% {
+        transform: translateY(43.12em);
+    }
+}
+
+.candle:before {
+    position: absolute;
+    content: "";
+    background-color: #f1af3f;
+    height: 1.25em;
+    width: 1.25em;
+    margin: -0.25em;
+    border-radius: 50% 50% 50% 0;
+    top: -1.3em;
+    transform: rotate(135deg);
+    animation: flame 2s infinite;
+}
+
+@keyframes flame {
+    50% {
+        transform: scale(0.8) rotate(135deg);
+    }
+}
