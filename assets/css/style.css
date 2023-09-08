@@ -43,6 +43,14 @@ h3 {
     text-align: center;
 }
 
+.content {
+    width: 260px;
+}
+
+.item-text {
+    width: fit-content;
+}
+
 .container {
     justify-content: center;
     display: block;
@@ -92,6 +100,38 @@ h3 {
     background-size: cover;
 }
 
+.page-image-hengky {
+    backface-visibility: hidden;
+    border-left: 3px solid #dac400;
+    background: url("/assets/images/border.png"), url("/assets/images/palit-hengky.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.page-image-nasgorest {
+    backface-visibility: hidden;
+    border-left: 3px solid #dac400;
+    background: url("/assets/images/border.png"), url("/assets/images/palit-nasgorest.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.page-image-gadjeman {
+    backface-visibility: hidden;
+    border-left: 3px solid #dac400;
+    background: url("/assets/images/border.png"), url("/assets/images/palit-gadjeman.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.page-image-yami {
+    backface-visibility: hidden;
+    border-left: 3px solid #dac400;
+    background: url("/assets/images/border.png"), url("/assets/images/palit-yami.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 .page-image {
     backface-visibility: hidden;
     border-left: 3px solid #dac400;
@@ -110,7 +150,11 @@ h3 {
 
 .front,
 .back,
-.page-image {
+.page-image,
+.page-image-yami,
+.page-image-gadjeman,
+.page-image-nasgorest,
+.page-image-hengky {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -125,7 +169,11 @@ h3 {
 }
 
 .front,
-.page-image {
+.page-image,
+.page-image-yami,
+.page-image-gadjeman,
+.page-image-nasgorest,
+.page-image-hengky {
     z-index: 1;
 }
 
@@ -154,22 +202,64 @@ h3 {
 /* Paper Flipped */
 .flipped .front,
 .flipped .back,
-.flipped .page-image {
+.flipped .page-image,
+.flipped .page-image-yami,
+.flipped .page-image-gadjeman,
+.flipped .page-image-nasgorest,
+.flipped .page-image-hengky {
     transform: rotateY(-180deg)
 }
 
 /* Paper Z-index */
 #p1 {
-    z-index: 3;
+    z-index: 12;
 }
 
 #p2 {
-    z-index: 2;
+    z-index: 11;
 }
 
 #p3 {
+    z-index: 10;
+}
+ 
+#p4 {
+    z-index: 9;
+}
+
+#p5 {
+    z-index: 8;
+}
+
+#p6 {
+    z-index: 7;
+}
+
+#p7 {
+    z-index: 6;
+}
+
+#p8 {
+    z-index: 5;
+}
+
+#p9 {
+    z-index: 4;
+}
+
+#p10 {
+    z-index: 3;
+}
+
+#p11 {
+    z-index: 2;
+}
+
+#p12 {
     z-index: 1;
 }
+
+
 
 /* Customization */
 
@@ -197,12 +287,12 @@ h3 {
 }
 
 .isi-img {
-    width: 100%;
-    height: 100%;
-    /* width: 300px;
-    height: 440px; */
-    object-fit: cover;
-    border-radius: 30px;
+    /* width: 100%;
+    height: 100%; */
+    width: 260px;
+    /* height: 440px; */
+    /* object-fit: cover; */
+    border-radius: 10px;
 }
 
 #b1 {
@@ -560,7 +650,7 @@ h3 {
 .container-cake * {
     position: absolute;
     margin: auto;
-    left: 50em;
+    left: 65em;
     right: 0;
 }
 
