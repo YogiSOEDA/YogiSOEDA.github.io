@@ -560,7 +560,7 @@ h3 {
 .container-cake * {
     position: absolute;
     margin: auto;
-    left: 1000px;
+    left: 50em;
     right: 0;
 }
 
