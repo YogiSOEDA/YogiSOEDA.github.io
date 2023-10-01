@@ -13,7 +13,7 @@ body {
     justify-content: center;
     font-family: sans-serif;
     /* background-color: #dac400; */
-    background: url("https://cdn.shopify.com/s/files/1/0257/6718/2416/files/Party-Background-green-with-presents_1024x1024.jpg?v=1595051600");
+    background: url("/assets/images/wati-bg.png");
     background-size: cover;
 }
 
@@ -76,7 +76,7 @@ h3 {
 
 /* Book */
 .book {
-    width: 350px;
+    width: 500px;
     height: 500px;
     position: relative;
     transition: transform 0.5s;
@@ -100,14 +100,14 @@ h3 {
     top: 0;
     left: 0;
     perspective: 1500px;
-    background: url("/assets/images/border.png");
+    background: url("/assets/images/wati-border.jpg");
     background-size: cover;
 }
 
 .page-image-setsun {
     backface-visibility: hidden;
     border-left: 3px solid #dac400;
-    background: url("/assets/images/border.png"), url("/assets/images/palit-setsun.png");
+    background: url("/assets/images/wati-border.jpg"), url("/assets/images/palit-setsun.png");
     background-size: cover;
     background-position: center;
 }
@@ -115,7 +115,7 @@ h3 {
 .page-image-andhika {
     backface-visibility: hidden;
     border-left: 3px solid #dac400;
-    background: url("/assets/images/border.png"), url("/assets/images/palit-andhika.jpg");
+    background: url("/assets/images/wati-border.jpg"), url("/assets/images/palit-andhika.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -123,7 +123,7 @@ h3 {
 .page-image-patan {
     backface-visibility: hidden;
     border-left: 3px solid #dac400;
-    background: url("/assets/images/border.png"), url("/assets/images/palit-patan.jpeg");
+    background: url("/assets/images/wati-border.jpg"), url("/assets/images/palit-patan.jpeg");
     background-size: cover;
     background-position: center;
 }
@@ -131,7 +131,7 @@ h3 {
 .page-image-hengky {
     backface-visibility: hidden;
     border-left: 3px solid #dac400;
-    background: url("/assets/images/border.png"), url("/assets/images/palit-hengky.png");
+    background: url("/assets/images/wati-border.jpg"), url("/assets/images/palit-hengky.png");
     background-size: cover;
     background-position: center;
 }
@@ -139,7 +139,7 @@ h3 {
 .page-image-nasgorest {
     backface-visibility: hidden;
     border-left: 3px solid #dac400;
-    background: url("/assets/images/border.png"), url("/assets/images/palit-nasgorest.png");
+    background: url("/assets/images/wati-border.jpg"), url("/assets/images/palit-nasgorest.png");
     background-size: cover;
     background-position: center;
 }
@@ -147,7 +147,7 @@ h3 {
 .page-image-gadjeman {
     backface-visibility: hidden;
     border-left: 3px solid #dac400;
-    background: url("/assets/images/border.png"), url("/assets/images/palit-gadjeman.jpg");
+    background: url("/assets/images/wati-border.jpg"), url("/assets/images/palit-gadjeman.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -155,7 +155,7 @@ h3 {
 .page-image-yami {
     backface-visibility: hidden;
     border-left: 3px solid #dac400;
-    background: url("/assets/images/border.png"), url("/assets/images/palit-yami.jpg");
+    background: url("/assets/images/wati-border.jpg"), url("/assets/images/palit-yami.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -163,7 +163,7 @@ h3 {
 .page-image {
     backface-visibility: hidden;
     border-left: 3px solid #dac400;
-    background: url("/assets/images/border.png"), url("/assets/images/palit2.png");
+    background: url("/assets/images/wati-border.jpg"), url("/assets/images/palit2.png");
     background-size: cover;
     background-position: center;
 }
@@ -171,7 +171,7 @@ h3 {
 .front {
     backface-visibility: hidden;
     border-left: 3px solid #dac400;
-    background: url("/assets/images/border.png");
+    background: url("/assets/images/wati-border.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -213,7 +213,7 @@ h3 {
 
 .back {
     z-index: 0;
-    background: url("/assets/images/border.png");
+    background: url("/assets/images/wati-border.jpg");
     background-size: cover;
     background-position: center;
     background-color: white;
@@ -221,7 +221,7 @@ h3 {
 
 .front-content,
 .back-content {
-    width: 100%;
+    width: 80%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -327,11 +327,11 @@ h3 {
 
 .book-title {
     font-size: 3em;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .cover-img {
-    width: 200px;
+    width: 270px;
     height: 270px;
     object-fit: cover;
     /* border-radius: 30px; */
